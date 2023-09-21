@@ -1,0 +1,87 @@
+header {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: yellow;
+  height: 6.25rem;
+}
+.images-title {
+  align-items: center;
+}
+.head-title h1 {
+  margin: 9% 0% 0% -18%;
+}
+.formulario {
+  width: 31.4375rem;
+}
+.carrito {
+  align-self: end;
+  margin-bottom: 6px;
+}
+.superIndiceCarrito {
+  justify-content: center;
+  border: 1px solid red;
+  border-radius: 100%;
+  margin-left: -12px;
+  height: 25px;
+  width: 25px;
+  background-color: #f12424;
+}
+.superIndiceCarrito div {
+  text-align: center;
+  color: #fff;
+}
+.fa-opencart {
+  cursor: pointer;
+}
+.fa-brands:before {
+  font-size: 30px;
+}
+/*MODAL HEADER*/
+.modal-body ul {
+  list-style: none;
+}
+.img-modal .carrito {
+  width: 45px;
+  margin: 0;
+}
+.mod-head-cont {
+  align-items: center;
+  justify-content: space-around;
+  column-gap: 0.25rem;
+}
+.modal-footer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between !important;
+}
+.mod-foot-bots {
+  width: 10.25rem;
+  justify-content: space-between !important;
+}
+/*Botones modal*/
+.mod-head-botones {
+  display: flex;
+  border: 1px solid #b6b1b1;
+  padding: 0.453rem;
+  width: 1.625rem;
+  height: 1.625rem;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.vaciarCarrito {
+  justify-content: center;
+  width: 100%;
+}
+.vaciarCarrito button {
+  width: 130px;
+  background-color: #000;
+  color: #fff;
+  transition: 2s ease;
+}
+.vaciarCarrito button:hover {
+  background-color: #333131;
+  transform: scale(1.08);
+}
+

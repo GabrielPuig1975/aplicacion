@@ -1,0 +1,10 @@
+.carousel-inner {
+  margin: auto;
+  width: 175px;
+}
+.imagen-carousel {
+  display: flex;
+  margin: auto;
+  width: -moz-fit-content;
+  width: fit-content;
+}
